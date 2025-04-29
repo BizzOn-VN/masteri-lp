@@ -200,7 +200,7 @@ input[type=submit] {
     background: transparent;
 }
 .section img{
-  width: auto;
+  width: 100%;
   height: 100%;
 }
 .section-1 .logo-banner{
@@ -284,6 +284,7 @@ input[type=submit] {
 }
 .section-2 .md-right{
   position: relative;
+  width: 66%;
 }
 .section-2 .md-right .mdbar-slider{
   position: absolute;
@@ -373,7 +374,7 @@ input[type=submit] {
 }
 .md-section-3 .main-content{
   background: #FFF;
-  padding: 5px 10px;
+  padding: 10px 15px;
 }
 .md-section-3 .main-content .md-title{
   font-weight: 700;
@@ -414,10 +415,9 @@ input[type=submit] {
   color: #DDAC67;
   display: inline-block;
   font-size: calc(2px + 0.7vw);
-  
   background: #F9F4ED;
   border-radius: 10px;
-  padding: 3px 10px;
+  padding: 5px 15px;
 }
 .md-section-3 .main-content .md-link a:hover{
   background: #BA7C38;
@@ -592,13 +592,29 @@ input[type=submit] {
   font-size: calc(2px + 0.8vw);
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1699px) {
     .container {
         max-width: 1400px;
     }
 }
-@media (min-width: 1920px) {
+@media (min-width: 1919px) {
     .container {
         max-width: 1600px;
     }
+    .wrapper .main-menu li{
+      padding: 24px 7px;
+    }
+    .md-section-3 .main-content .md-link a{
+      width: 40%;
+    }
+    .md-section-3 .main-content .md-address img{
+      margin-right: 10px;
+      width: 4%;
+    }
+}
+
+@media screen and (max-width: 767px){
+  .md-section-3 .col-sm-6{
+    margin-bottom: 15px;
+  }
 }
