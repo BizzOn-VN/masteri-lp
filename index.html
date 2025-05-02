@@ -51,22 +51,20 @@
     <div class="page-main">
         <div class="md-container">
             <div class="section section-1">
-                <img src="./images/banner.jpg" alt="">
+                <img src="./images/banner.jpg" alt="" class="md-desktop">
+                <img src="./images/banner-mb.jpg" alt="" class="md-mobile">
                 <img src="./images/logo-banner.png" alt="" class="logo-banner">
-                <h2>Nâng tầm phong cách sống</h2>
+                <h2><span>Nâng tầm</span> phong cách sống</h2>
                 <p>Mở ra trải nghiệm cuộc sống thành thị giàu cảm xúc</p>
-                <a href="#" class="watch-vd">Xem Video</a>
+                <a href="#" class="watch-vd" data-fancybox="" data-src="#md-popup" href="javascript:;">Xem Video</a>
+                <div id="md-popup" class="main-popup">
+                       <video  controls>
+                         <source src="./images/masteri.mp4" type="video/mp4">
+                       </video>     
+                </div>
                 <a href="#" class="md-scroll" id="btn-sc-1" onclick="scrollToDiv('section1')"><img src="./images/scroll.png" alt="">Kéo xuống</a>
             </div>
             <div class="section section-2 clearfix" id="section1">
-                <div class="md-left">
-                    <img src="./images/bg-section-4.png" alt="" class="bg-md-left">
-                    <p class="md-text-1">Bộ sưu tập</p>
-                    <h6>phong cách sống Masteri</h6>
-                    <p>MASTERI được thiết kế dành cho những cá nhân mong muốn tìm kiếm một không gian và môi trường có trải nghiệm sống đúng tầm, xứng đáng. Nơi đây hướng đến tiêu chuẩn sống quốc tế, hội tụ những trải nghiệm đẳng cấp và giá trị thiết thực, đáp ứng nhu cầu của những công dân toàn cầu hiện đại</p>
-                    <p>Bộ sưu tập phong cách MASTERI  mang đến trải nghiệm sống cân bằng giữa nhịp sống đô thị sôi động và không gian đô thị đầy cảm xúc, cho bạn tận hưởng một cuộc sống đầy ý nghĩa và trọn vẹn.</p>
-                    <p class="md-text-2">Masteri – NÂNG TẦM PHONG CÁCH SỐNG.</p>
-                </div>
                 <div class="md-right">
                     <img src="./images/banner-img-1.jpg" alt="">
                     <a href="#" class="md-scroll" onclick="scrollToDiv('section2')"><img src="./images/scroll.png" alt="">Kéo xuống</a>
@@ -76,16 +74,17 @@
                         <span></span>
                     </div>
                 </div>
-            </div>
-            <div class="section section-2" id="section2">
                 <div class="md-left">
                     <img src="./images/bg-section-4.png" alt="" class="bg-md-left">
-                    <p class="md-text-1">phong cách sống masteri</p>
-                    <h6>SỐNG GẮN KẾT</h6>
-                    <p>Với bạn, một cuộc sống trọn vẹn bắt đầu từ đâu?</p>
-                    <p>Chúng tôi tin rằng mọi kết nối ý nghĩa – với chính mình, với cộng đồng, và với những điều bạn trân trọng – chính là khởi đầu cho một cuộc sống đáng giá. Không chỉ thuận tiện về vị trí hay tiện ích, Masteri mang đến không gian sống kết nối cho mọi trải nghiệm thêm trọn vẹn.</p>
-                    <p>Tại Masteri, mỗi ngày là một cơ hội mới để bạn xây dựng những kết nối sâu sắc và tạo nên "tổ ấm" của riêng mình.</p>
+                    <p class="md-text-1">Bộ sưu tập</p>
+                    <h6>phong cách sống Masteri</h6>
+                    <p>MASTERI được thiết kế dành cho những cá nhân mong muốn tìm kiếm một không gian và môi trường có trải nghiệm sống đúng tầm, xứng đáng. Nơi đây hướng đến tiêu chuẩn sống quốc tế, hội tụ những trải nghiệm đẳng cấp và giá trị thiết thực, đáp ứng nhu cầu của những công dân toàn cầu hiện đại</p>
+                    <p>Bộ sưu tập phong cách MASTERI  mang đến trải nghiệm sống cân bằng giữa nhịp sống đô thị sôi động và không gian đô thị đầy cảm xúc, cho bạn tận hưởng một cuộc sống đầy ý nghĩa và trọn vẹn.</p>
+                    <p class="md-text-2">Masteri – NÂNG TẦM PHONG CÁCH SỐNG.</p>
                 </div>
+                
+            </div>
+            <div class="section section-2" id="section2">
                 <div class="md-right">
                     <img src="./images/banner-img-2.jpg" alt="">
                     <a href="#" class="md-scroll" onclick="scrollToDiv('section3')"><img src="./images/scroll.png" alt="">Kéo xuống</a>
@@ -95,16 +94,17 @@
                         <span></span>
                     </div>
                 </div>
-            </div>
-            <div class="section section-2" id="section3">
                 <div class="md-left">
                     <img src="./images/bg-section-4.png" alt="" class="bg-md-left">
                     <p class="md-text-1">phong cách sống masteri</p>
-                    <h6>SỐNG TINH TẾ</h6>
-                    <p>Giữa nhịp sống đô thị hối hả, bạn có luôn giữ được lối sống tinh tế trong từng khoảnh khắc?</p>
-                    <p>Bộ sưu tập Phong Cách Sống MASTERI mang đến cho bạn những điểm nhấn tinh tế trong từng trải nghiệm, công việc, kết nối gia đình và đam mê cá nhân – nơi mỗi bước chân đều dẫn bạn đến những tiện ích đủ đầy và tinh tế.</p>
-                    <p>Mỗi khoảnh khắc tại MASTERI là một trải nghiệm sống đầy cảm hứng, nơi kiến trúc hiện đại kết hợp hài hòa với nghệ thuật, tạo nên không gian sống mang đậm dấu ấn thẩm mỹ và văn hóa.</p>
+                    <h6>SỐNG GẮN KẾT</h6>
+                    <p>Với bạn, một cuộc sống trọn vẹn bắt đầu từ đâu?</p>
+                    <p>Chúng tôi tin rằng mọi kết nối ý nghĩa – với chính mình, với cộng đồng, và với những điều bạn trân trọng – chính là khởi đầu cho một cuộc sống đáng giá. Không chỉ thuận tiện về vị trí hay tiện ích, Masteri mang đến không gian sống kết nối cho mọi trải nghiệm thêm trọn vẹn.</p>
+                    <p>Tại Masteri, mỗi ngày là một cơ hội mới để bạn xây dựng những kết nối sâu sắc và tạo nên "tổ ấm" của riêng mình.</p>
                 </div>
+                
+            </div>
+            <div class="section section-2" id="section3">
                 <div class="md-right">
                     <img src="./images/banner-img-3.jpg" alt="">
                     <a href="#" class="md-scroll" onclick="scrollToDiv('section4')"><img src="./images/scroll.png" alt="">Kéo xuống</a>
@@ -114,16 +114,17 @@
                         <span></span>
                     </div>
                 </div>
-            </div>
-            <div class="section section-2" id="section4">
                 <div class="md-left">
                     <img src="./images/bg-section-4.png" alt="" class="bg-md-left">
                     <p class="md-text-1">phong cách sống masteri</p>
-                    <h6>SỐNG đẳng cấp</h6>
-                    <p>Lựa chọn nào giúp bạn khẳng định tuyên ngôn sống đẳng cấp?</p>
-                    <p>MASTERI không chỉ kiến tạo nơi an cư lý tưởng, mà còn thiết lập chuẩn sống quốc tế giữa lòng đô thị. Với thiết kế tinh tế, tiện ích toàn diện và trải nghiệm sống thời thượng, MASTERI dành cho thế hệ công dân toàn cầu – những người không ngừng hướng tới chất lượng sống vượt trội. Tại MASTERI, sống không chỉ là tận hưởng, sống còn là hành trình vươn mình – vun đắp thăng hoa, tạo dựng nền tảng bền vững, và nuôi dưỡng tương lai bền vững.</p>
-                    <p>Với MASTERI, chuẩn sống đẳng cấp không chỉ được là sự lựa chọn, mà được khẳng định mỗi ngày.</p>
+                    <h6>SỐNG TINH TẾ</h6>
+                    <p>Giữa nhịp sống đô thị hối hả, bạn có luôn giữ được lối sống tinh tế trong từng khoảnh khắc?</p>
+                    <p>Bộ sưu tập Phong Cách Sống MASTERI mang đến cho bạn những điểm nhấn tinh tế trong từng trải nghiệm, công việc, kết nối gia đình và đam mê cá nhân – nơi mỗi bước chân đều dẫn bạn đến những tiện ích đủ đầy và tinh tế.</p>
+                    <p>Mỗi khoảnh khắc tại MASTERI là một trải nghiệm sống đầy cảm hứng, nơi kiến trúc hiện đại kết hợp hài hòa với nghệ thuật, tạo nên không gian sống mang đậm dấu ấn thẩm mỹ và văn hóa.</p>
                 </div>
+                
+            </div>
+            <div class="section section-2" id="section4">
                 <div class="md-right">
                     <img src="./images/banner-img-4.jpg" alt="">
                     <a href="#" class="md-scroll"><img src="./images/scroll.png" alt="">Kéo xuống</a>
@@ -133,6 +134,15 @@
                         <span class="active"></span>
                     </div>
                 </div>
+                <div class="md-left">
+                    <img src="./images/bg-section-4.png" alt="" class="bg-md-left">
+                    <p class="md-text-1">phong cách sống masteri</p>
+                    <h6>SỐNG đẳng cấp</h6>
+                    <p>Lựa chọn nào giúp bạn khẳng định tuyên ngôn sống đẳng cấp?</p>
+                    <p>MASTERI không chỉ kiến tạo nơi an cư lý tưởng, mà còn thiết lập chuẩn sống quốc tế giữa lòng đô thị. Với thiết kế tinh tế, tiện ích toàn diện và trải nghiệm sống thời thượng, MASTERI dành cho thế hệ công dân toàn cầu – những người không ngừng hướng tới chất lượng sống vượt trội. Tại MASTERI, sống không chỉ là tận hưởng, sống còn là hành trình vươn mình – vun đắp thăng hoa, tạo dựng nền tảng bền vững, và nuôi dưỡng tương lai bền vững.</p>
+                    <p>Với MASTERI, chuẩn sống đẳng cấp không chỉ được là sự lựa chọn, mà được khẳng định mỗi ngày.</p>
+                </div>
+                
             </div>
             <div class="section md-section-3">
                 <h6>Các Dự Án <span>MASTERI COLLECTION</span></h6>
@@ -142,110 +152,47 @@
                         <div class="row">
                             
                             <div class="col-md-3 col-sm-6">
-                                <img src="./images/sc3-img-1.jpg" alt="" class="sc3-img-1">
+                                <a href="#" class="sc3-img-1"><img src="./images/sc3-img-1.jpg" alt="" ></a>
                                 <div class="main-content">
-                                    <p class="md-title">Masteri Trinity Square</p>
+                                    <p class="md-title"><a href="#">Masteri Trinity Square</a></p>
                                     <p class="md-text-3">Khu phức hợp cao tầng cộng đồng Masteri quy mô nhất tại Ocean City.</p>
                                     <div class="md-address">
                                         <p><img src="./images/ico-1.png" alt="">địa chỉ</p>
                                         <span>Trực diện công viên Empire Park, Ocean Park</span>
                                     </div>
                                     <div class="md-link">
-                                        <a href="https://masterisehomes.com/the-rivus/index.html" target="_blank">Khám phá <img src="./images/ico-2.png" alt=""></a>
-                                        <a href="https://masterisehomes.com/the-rivus/index.html" target="_blank">Xem 360 <img src="./images/ico-2.png" alt=""></a>
+                                        <a href="https://masterisehomes.com/masteri-trinity-square" target="_blank">Khám phá <img src="./images/ico-2.png" alt=""></a>
+                                        <a href="#" target="_blank">Xem 360 <img src="./images/ico-2.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6">
-                                <img src="./images/sc3-img-1.jpg" alt="" class="sc3-img-1">
+                                <a href="#" class="sc3-img-1"><img src="./images/sc3-img-2.jpg" alt="" ></a>
                                 <div class="main-content">
-                                    <p class="md-title">Masteri Trinity Square</p>
-                                    <p class="md-text-3">Khu phức hợp cao tầng cộng đồng Masteri quy mô nhất tại Ocean City.</p>
+                                    <p class="md-title"><a href="#">Masteri Central Point</a></p>
+                                    <p class="md-text-3">Khu căn hộ compound (khép kín) cao cấp tại trung tâm Đại đô thị Grand Park</p>
                                     <div class="md-address">
                                         <p><img src="./images/ico-1.png" alt="">địa chỉ</p>
-                                        <span>Trực diện công viên Empire Park, Ocean Park</span>
+                                        <span>Đại đô thị Vinhomes Grand Park, Phường Long Bình và Phường Long Thạnh Mỹ, TP. Thủ Đức, TP. Hồ Chí Minh</span>
                                     </div>
                                     <div class="md-link">
-                                        <a href="https://masterisehomes.com/the-rivus/index.html" target="_blank">Khám phá <img src="./images/ico-2.png" alt=""></a>
-                                        <a href="https://masterisehomes.com/the-rivus/index.html" target="_blank">Xem 360 <img src="./images/ico-2.png" alt=""></a>
+                                        <a href="https://masterisehomes.com/masteri-centre-point/" target="_blank">Khám phá <img src="./images/ico-2.png" alt=""></a>
+                                        <a href="https://masterisehomes.com/masteri-centre-point/web360/index.php" target="_blank">Xem 360 <img src="./images/ico-2.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6">
-                                <img src="./images/sc3-img-1.jpg" alt="" class="sc3-img-1">
+                                <a href="#" class="sc3-img-1"><img src="./images/sc3-img-3.jpg" alt="" ></a>
                                 <div class="main-content">
-                                    <p class="md-title">Masteri Trinity Square</p>
-                                    <p class="md-text-3">Khu phức hợp cao tầng cộng đồng Masteri quy mô nhất tại Ocean City.</p>
+                                    <p class="md-title"><a href="#">Masteri Lakeside</a></p>
+                                    <p class="md-text-3">Biểu tượng sống kết nối - Khẳng định dấu ấn của Masteri tại Ocean Park</p>
                                     <div class="md-address">
                                         <p><img src="./images/ico-1.png" alt="">địa chỉ</p>
-                                        <span>Trực diện công viên Empire Park, Ocean Park</span>
+                                        <span>Đại đô thị Ocean Park, Dương Xá, Kiêu Kỵ - Đa Tốn, Gia Lâm, Hà Nội</span>
                                     </div>
                                     <div class="md-link">
                                         <a href="https://masterisehomes.com/the-rivus/index.html" target="_blank">Khám phá <img src="./images/ico-2.png" alt=""></a>
-                                        <a href="https://masterisehomes.com/the-rivus/index.html" target="_blank">Xem 360 <img src="./images/ico-2.png" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <p class="main-title">Dự án <span>| ĐÃ HOÀN THÀNH</span></p>
-                        <div class="row">
-                            <div class="col-md-3 col-sm-6">
-                                <img src="./images/sc3-img-1.jpg" alt="" class="sc3-img-1">
-                                <div class="main-content">
-                                    <p class="md-title">Masteri Trinity Square</p>
-                                    <p class="md-text-3">Khu phức hợp cao tầng cộng đồng Masteri quy mô nhất tại Ocean City.</p>
-                                    <div class="md-address">
-                                        <p><img src="./images/ico-1.png" alt="">địa chỉ</p>
-                                        <span>Trực diện công viên Empire Park, Ocean Park</span>
-                                    </div>
-                                    <div class="md-link">
-                                        <a href="https://masterisehomes.com/the-rivus/index.html" target="_blank">Khám phá <img src="./images/ico-2.png" alt=""></a>
-                                        <a href="https://masterisehomes.com/the-rivus/index.html" target="_blank">Xem 360 <img src="./images/ico-2.png" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <img src="./images/sc3-img-1.jpg" alt="" class="sc3-img-1">
-                                <div class="main-content">
-                                    <p class="md-title">Masteri Trinity Square</p>
-                                    <p class="md-text-3">Khu phức hợp cao tầng cộng đồng Masteri quy mô nhất tại Ocean City.</p>
-                                    <div class="md-address">
-                                        <p><img src="./images/ico-1.png" alt="">địa chỉ</p>
-                                        <span>Trực diện công viên Empire Park, Ocean Park</span>
-                                    </div>
-                                    <div class="md-link">
-                                        <a href="https://masterisehomes.com/the-rivus/index.html" target="_blank">Khám phá <img src="./images/ico-2.png" alt=""></a>
-                                        <a href="https://masterisehomes.com/the-rivus/index.html" target="_blank">Xem 360 <img src="./images/ico-2.png" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <img src="./images/sc3-img-1.jpg" alt="" class="sc3-img-1">
-                                <div class="main-content">
-                                    <p class="md-title">Masteri Trinity Square</p>
-                                    <p class="md-text-3">Khu phức hợp cao tầng cộng đồng Masteri quy mô nhất tại Ocean City.</p>
-                                    <div class="md-address">
-                                        <p><img src="./images/ico-1.png" alt="">địa chỉ</p>
-                                        <span>Trực diện công viên Empire Park, Ocean Park</span>
-                                    </div>
-                                    <div class="md-link">
-                                        <a href="https://masterisehomes.com/the-rivus/index.html" target="_blank">Khám phá <img src="./images/ico-2.png" alt=""></a>
-                                        <a href="https://masterisehomes.com/the-rivus/index.html" target="_blank">Xem 360 <img src="./images/ico-2.png" alt=""></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-3 col-sm-6">
-                                <img src="./images/sc3-img-1.jpg" alt="" class="sc3-img-1">
-                                <div class="main-content">
-                                    <p class="md-title">Masteri Trinity Square</p>
-                                    <p class="md-text-3">Khu phức hợp cao tầng cộng đồng Masteri quy mô nhất tại Ocean City.</p>
-                                    <div class="md-address">
-                                        <p><img src="./images/ico-1.png" alt="">địa chỉ</p>
-                                        <span>Trực diện công viên Empire Park, Ocean Park</span>
-                                    </div>
-                                    <div class="md-link">
-                                        <a href="https://masterisehomes.com/the-rivus/index.html" target="_blank">Khám phá <img src="./images/ico-2.png" alt=""></a>
-                                        <a href="https://masterisehomes.com/the-rivus/index.html" target="_blank">Xem 360 <img src="./images/ico-2.png" alt=""></a>
+                                        <a href="#" target="_blank">Xem 360 <img src="./images/ico-2.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
@@ -253,36 +200,100 @@
                         <p class="main-title">Dự án <span>| SẮP TRIỂN KHAI</span></p>
                         <div class="row">
                             <div class="col-md-3 col-sm-6">
-                                <img src="./images/sc3-img-1.jpg" alt="" class="sc3-img-1">
+                                <a href="#" class="sc3-img-1"><img src="./images/sc3-img-4.jpg" alt="" ></a>
                                 <div class="main-content">
-                                    <p class="md-title">Masteri Trinity Square</p>
-                                    <p class="md-text-3">Khu phức hợp cao tầng cộng đồng Masteri quy mô nhất tại Ocean City.</p>
+                                    <p class="md-title"><a href="#">Masteri Grand Avenue</a></p>
+                                    <p class="md-text-3">Dự án đầu tiên và duy nhất thuộc Bộ sưu tập Masteri Collection tại Global Gate, Hà Nội</p>
                                     <div class="md-address">
                                         <p><img src="./images/ico-1.png" alt="">địa chỉ</p>
-                                        <span>Trực diện công viên Empire Park, Ocean Park</span>
+                                        <span>Vinhomes Global Gate, Hà Nội</span>
                                     </div>
                                     <div class="md-link">
-                                        <a href="https://masterisehomes.com/the-rivus/index.html" target="_blank">Khám phá <img src="./images/ico-2.png" alt=""></a>
-                                        <a href="https://masterisehomes.com/the-rivus/index.html" target="_blank">Xem 360 <img src="./images/ico-2.png" alt=""></a>
+                                        <a href="https://masterisehomes.com/masteri-grand-avenue/" target="_blank">Khám phá <img src="./images/ico-2.png" alt=""></a>
+                                        <a href="https://masterisehomes.com/masteri-grand-avenue/project-view-360/overview" target="_blank">Xem 360 <img src="./images/ico-2.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-md-3 col-sm-6">
-                                <img src="./images/sc3-img-1.jpg" alt="" class="sc3-img-1">
+                                <a href="#" class="sc3-img-1"><img src="./images/sc3-img-5.jpg" alt="" ></a>
                                 <div class="main-content">
-                                    <p class="md-title">Masteri Trinity Square</p>
-                                    <p class="md-text-3">Khu phức hợp cao tầng cộng đồng Masteri quy mô nhất tại Ocean City.</p>
+                                    <p class="md-title"><a href="#">Masteri Grand View</a></p>
+                                    <p class="md-text-3">Siêu phẩm cao tầng đầu tiên tại Trung Tâm Mới The Global City.</p>
                                     <div class="md-address">
                                         <p><img src="./images/ico-1.png" alt="">địa chỉ</p>
-                                        <span>Trực diện công viên Empire Park, Ocean Park</span>
+                                        <span>Siêu phẩm cao tầng đầu tiên tại Trung Tâm Mới The Global City.</span>
                                     </div>
                                     <div class="md-link">
-                                        <a href="https://masterisehomes.com/the-rivus/index.html" target="_blank">Khám phá <img src="./images/ico-2.png" alt=""></a>
-                                        <a href="https://masterisehomes.com/the-rivus/index.html" target="_blank">Xem 360 <img src="./images/ico-2.png" alt=""></a>
+                                        <a href="https://masterisehomes.com/masteri-grand-avenue/project-view-360/overview" target="_blank">Khám phá <img src="./images/ico-2.png" alt=""></a>
+                                        <a href="#" target="_blank">Xem 360 <img src="./images/ico-2.png" alt=""></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
+                        <p class="main-title">Dự án <span>| ĐÃ HOÀN THÀNH</span></p>
+                        <div class="row">
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="sc3-img-1"><img src="./images/sc3-img-6.jpg" alt="" ></a>
+                                <div class="main-content">
+                                    <p class="md-title"><a href="#">Masteri West Heights</a></p>
+                                    <p class="md-text-3">Chuẩn mực sống quốc tế đích thực nhất phía Tây Hà Nội</p>
+                                    <div class="md-address">
+                                        <p><img src="./images/ico-1.png" alt="">địa chỉ</p>
+                                        <span>Hồ trung tâm, Đại đô thị Smart City, Tây Mỗ, Đại Mỗ, Quận Nam Từ Liêm, Hà Nội</span>
+                                    </div>
+                                    <div class="md-link">
+                                        <a href="https://masterisehomes.com/masteri-west-heights/" target="_blank">Khám phá <img src="./images/ico-2.png" alt=""></a>
+                                        <a href="https://masterisehomes.com/masteri-west-heights/view-360/" target="_blank">Xem 360 <img src="./images/ico-2.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="sc3-img-1"><img src="./images/sc3-img-7.jpg" alt="" ></a>
+                                <div class="main-content">
+                                    <p class="md-title"><a href="#">Masteri Waterfront</a></p>
+                                    <p class="md-text-3">Nơi đáng sống nhất giữa lòng Đại đô thị Ocean Park</p>
+                                    <div class="md-address">
+                                        <p><img src="./images/ico-1.png" alt="">địa chỉ</p>
+                                        <span>Đại đô thị Ocean Park, Dương Xá - Kiêu Kỵ - Đa Tốn, Gia Lâm, Hà Nội</span>
+                                    </div>
+                                    <div class="md-link">
+                                        <a href="https://masterisehomes.com/masteri-waterfront/" target="_blank">Khám phá <img src="./images/ico-2.png" alt=""></a>
+                                        <a href="https://view-360.masterisehomes.com/masteri-waterfront-view-360/" target="_blank">Xem 360 <img src="./images/ico-2.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="sc3-img-1"><img src="./images/sc3-img-8.jpg" alt="" ></a>
+                                <div class="main-content">
+                                    <p class="md-title"><a href="#">Masteri An Phú</a></p>
+                                    <p class="md-text-3">Đẳng cấp sống resort ngay vị trí kim cương Thảo Điền với không gian sống xanh an yên, riêng tư, tiện ích cao cấp.</p>
+                                    <div class="md-address">
+                                        <p><img src="./images/ico-1.png" alt="">địa chỉ</p>
+                                        <span>179 Xa lộ Hà Nội, P. Thảo Điền, TP. Thủ Đức, TP. Hồ Chí Minh</span>
+                                    </div>
+                                    <div class="md-link">
+                                        <a href="https://masterisehomes.com/masteri-an-phu" target="_blank">Khám phá <img src="./images/ico-2.png" alt=""></a>
+                                        <a href="https://masterisehomes.com/masteri-an-phu/xem-nha-mau" target="_blank">Xem 360 <img src="./images/ico-2.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <a href="#" class="sc3-img-1"><img src="./images/sc3-img-9.jpg" alt="" ></a>
+                                <div class="main-content">
+                                    <p class="md-title"><a href="#">Masteri Thảo Điền</a></p>
+                                    <p class="md-text-3">Vị trí đẳng cấp tại Thảo Điền, kết nối thuận tiện đến các quận trung tâm, nơi bạn có thể hòa mình giữa không gian</p>
+                                    <div class="md-address">
+                                        <p><img src="./images/ico-1.png" alt="">địa chỉ</p>
+                                        <span>159 Xa lộ Hà Nội, P. Thảo Điền, TP. Thủ Đức, TP. Hồ Chí Minh</span>
+                                    </div>
+                                    <div class="md-link">
+                                        <a href="https://masterisehomes.com/masteri-thao-dien" target="_blank">Khám phá <img src="./images/ico-2.png" alt=""></a>
+                                        <a href="https://masterisehomes.com/masteri-thao-dien/view-360-masteri-thao-dien" target="_blank">Xem 360 <img src="./images/ico-2.png" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
