@@ -71,7 +71,7 @@ input[type=submit] {
   top: 0;
   width: 100%;
   background: #FFF;
-  z-index: 2;
+  z-index: 9999;
   padding: 10px 0px;
 }
 .wrapper .logo{
@@ -622,6 +622,16 @@ input[type=submit] {
   background: #b67e3d;
   color: #FFF;
   padding: 30px 0px;
+}
+.footer .top-footer .md-social{
+  text-align: center;
+}
+.footer .top-footer .md-social a{
+  width: 20%;
+  display: inline-block;
+}
+.footer .top-footer .md-social a img{
+  width: 100%;
 }
 .top-footer h6{
   text-align: center;
