@@ -559,6 +559,9 @@ input[type=submit] {
 .md-section-4 .md-row .md-col.active .md-text-1{
   width: 25%;
 }
+.md-section-4 .md-row .md-col.active{
+  transition-duration: 0.3s;
+}
 .md-section-4 .md-row .md-col .md-text-1 span{
   font-family: "Playfair Display", serif;
   font-weight: 500;
@@ -698,7 +701,7 @@ input[type=submit] {
 }
 @media (min-width: 1919px) {
     .container {
-        max-width: 1600px;
+        max-width: 1700px;
     }
     .wrapper .main-menu li{
       padding: 24px 7px;
@@ -713,6 +716,50 @@ input[type=submit] {
     .section-2 .md-left{
       height: 957px;
     }
+}
+@media (min-width: 2047px){
+  .section-2 .md-left{
+      height: 980px;
+    }
+}
+@media (min-width: 3800px){
+  .container{
+    max-width: 3000px;
+  }
+  .wrapper .main-menu li{
+    padding: 30px 15px;
+  }
+  .wrapper .logo{
+    max-width: 300px;
+  }
+  .section{
+    padding-top: 160px;
+  }
+  .section-1 .logo-banner{
+    top: 18%;
+  }
+  .section-1 h2{
+    top: 33%;
+  }
+  .section-1 p{
+    top: 44%;
+  }
+  .section-1 .watch-vd{
+    top: 56%;
+  }
+  .section-1 .md-scroll{
+    top: 68%;
+  }
+  .section-2 .md-left{
+    height: 1914px;
+    padding: 100px;
+  }
+  p{
+    margin-bottom: 30px;
+  }
+  .section-2 .md-left h6{
+    margin-bottom: 30px;
+  }
 }
 .main-popup{
   display: none;
