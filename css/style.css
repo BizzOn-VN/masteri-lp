@@ -104,65 +104,7 @@ input[type=submit] {
 .wrapper .main-menu .logo{
   display: none;
 }
-@media screen and (max-width: 1200px){
-  .wrapper .main-menu{
-    width: 100%;
-    height: 100vh;
-    padding-top: 30px;
-    position: fixed;
-    left: -100%;
-    top: 0;
-    background-color: rgba(255, 248, 220, 1);
-    padding: 10px 20px;
-    visibility: hidden;
-  }
-  .wrapper .main-menu li{
-    float: none;
-    padding: 10px 0px;
-  }
-  .wrapper .main-menu li a{
-    color: #333;
-    font-size: 15px;
-    font-weight: 700;
-  }
-  .wrapper .main-menu li a:hover{
-    color: #a96b11;
-  }
-  .wrapper .main-menu li.md-language{
-    position: absolute;
-    right: 70px;
-    top: 10px;
-  }
-  .wrapper .main-menu .logo{
-    display: block;
-    float: none;
-    margin-bottom: 30px;
-  }
-  .menu-btn{
-    position: absolute;
-    right: 15px;
-    cursor: pointer;
-    top: 20px;
-    width: 24px;
-    height: auto;
-    display: block;
-  }
-  .menu-btn img{
-    width: 100%;
-  }
-  .menu-btn-op{
-    float: right;
-    cursor: pointer;
-    padding: 12px 0px;
-  }
-  .menu-btn-op span{
-    width: 30px;
-    height: 4px;
-    margin-bottom: 4px;
-    background: #a96b11;
-    display: block;
-  }
-}
+
 .active-mn{
   visibility: visible !important;
   left: 0% !important;
@@ -724,7 +666,7 @@ input[type=submit] {
 }
 @media (min-width: 3800px){
   .container{
-    max-width: 3000px;
+    max-width: 3100px;
   }
   .wrapper .main-menu li{
     padding: 30px 15px;
@@ -772,6 +714,10 @@ input[type=submit] {
   .md-section-4{
     height: auto;
   }
+  ul.submenu{
+    width: 500px !important;
+    padding: 10px 10px 20px 10px !important;
+  }
 }
 .main-popup{
   display: none;
@@ -803,7 +749,27 @@ input[type=submit] {
 .md-mobile{
   display: none;
 }
-
+.wrapper .main-menu li{
+  position: relative;
+}
+ul.submenu{
+  position: absolute;
+  left: 0;
+  padding: 5px 5px 10px 5px;
+  width: 230px;
+  background-color: rgba(169, 107, 17, 0.4);
+  display: none;
+  transition-duration: 0.3s;
+}
+.wrapper .main-menu li:hover ul.submenu{
+  display: block;
+  transition-duration: 0.3s;
+}
+ul.submenu li{
+  float: none !important;
+  padding: 0px !important;
+  color: #FFF !important;
+}
 @media screen and (max-width: 767px){
   .footer .top-footer .md-social a{
     width: 10%;
@@ -1019,3 +985,69 @@ input[type=submit] {
   }
 }
 
+@media screen and (max-width: 1200px){
+  ul.submenu{
+    position: static !important;
+    background: transparent !important;
+  }
+  ul.submenu li{
+    padding: 5px 0px !important;
+  }
+  .wrapper .main-menu{
+    width: 100%;
+    height: 100vh;
+    padding-top: 30px;
+    position: fixed;
+    left: -100%;
+    top: 0;
+    background-color: rgba(255, 248, 220, 1);
+    padding: 10px 20px;
+    visibility: hidden;
+  }
+  .wrapper .main-menu li{
+    float: none;
+    padding: 10px 0px;
+  }
+  .wrapper .main-menu li a{
+    color: #333;
+    font-size: 15px;
+    font-weight: 700;
+  }
+  .wrapper .main-menu li a:hover{
+    color: #a96b11;
+  }
+  .wrapper .main-menu li.md-language{
+    position: absolute;
+    right: 70px;
+    top: 10px;
+  }
+  .wrapper .main-menu .logo{
+    display: block;
+    float: none;
+    margin-bottom: 30px;
+  }
+  .menu-btn{
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+    top: 20px;
+    width: 24px;
+    height: auto;
+    display: block;
+  }
+  .menu-btn img{
+    width: 100%;
+  }
+  .menu-btn-op{
+    float: right;
+    cursor: pointer;
+    padding: 12px 0px;
+  }
+  .menu-btn-op span{
+    width: 30px;
+    height: 4px;
+    margin-bottom: 4px;
+    background: #a96b11;
+    display: block;
+  }
+}
