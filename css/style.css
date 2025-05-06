@@ -768,6 +768,9 @@ ul.submenu{
 ul.submenu li{
   float: none !important;
   padding: 0px !important;
+  
+}
+ul.submenu li a{
   color: #FFF !important;
 }
 @media screen and (max-width: 767px){
