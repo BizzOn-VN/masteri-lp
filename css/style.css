@@ -1053,4 +1053,7 @@ ul.submenu li a{
     background: #a96b11;
     display: block;
   }
+  ul.submenu li a{
+    color: #333 !important;
+  }
 }
