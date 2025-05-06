@@ -760,6 +760,18 @@ input[type=submit] {
   .section-2 .md-left h6{
     margin-bottom: 30px;
   }
+  .section{
+    height: 87vh;
+  }
+  .section-2 .md-scroll img{
+    margin: 0px auto 30px auto;
+  }
+  .md-section-3{
+    height: auto;
+  }
+  .md-section-4{
+    height: auto;
+  }
 }
 .main-popup{
   display: none;
@@ -793,6 +805,9 @@ input[type=submit] {
 }
 
 @media screen and (max-width: 767px){
+  .footer .top-footer .md-social a{
+    width: 10%;
+  }
   .main-popup{
     width: 100%;
   }
@@ -811,7 +826,7 @@ input[type=submit] {
   .section-1{
     height: auto;
     scroll-snap-align: none;
-    padding-top: 70px;
+    padding-top: 60px;
   }
   .section-1 .logo-banner{
     width: 30%;
@@ -852,7 +867,7 @@ input[type=submit] {
     position: relative;
     width: 100%;
     height: auto;
-    padding: 30px 20px 100px;
+    padding: 30px 20px 70px;
   }
   .section-2 .md-left .bg-md-left{
     width: 50%;
