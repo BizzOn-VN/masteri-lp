@@ -87,17 +87,12 @@ const boxes = document.querySelectorAll('.box');
 
         boxes.forEach(box => {
             box.addEventListener('mouseover', function() {
-                // Remove 'active' class from all boxes
                 boxes.forEach(b => b.classList.remove('active'));
 
-                // Add 'active' class to the currently hovered box
                 this.classList.add('active');
             });
 
-            // Optional: Remove 'active' class when mouse leaves
-            box.addEventListener('mouseout', function() {
-                this.classList.remove('active');
-            });
+            
         });
 
 

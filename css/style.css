@@ -665,6 +665,10 @@ input[type=submit] {
     }
 }
 @media (min-width: 3800px){
+
+  .section-1 .watch-vd{
+    padding: 7px 50px;
+  }
   .container{
     max-width: 3100px;
   }
@@ -702,9 +706,6 @@ input[type=submit] {
   .section-2 .md-left h6{
     margin-bottom: 30px;
   }
-  .section{
-    height: 87vh;
-  }
   .section-2 .md-scroll img{
     margin: 0px auto 30px auto;
   }
@@ -717,6 +718,17 @@ input[type=submit] {
   ul.submenu{
     width: 500px !important;
     padding: 10px 10px 20px 10px !important;
+  }
+  .md-section-3 .main-content .md-link a{
+    width: 30%;
+  }
+  .md-section-4 .md-row .md-col .md-text-1{
+    left: 30px;
+    bottom: 20px;
+  }
+  .md-section-4 .md-row .md-col .md-text-2{
+    right: 30px;
+    bottom: 20px;
   }
 }
 .main-popup{
@@ -773,7 +785,13 @@ ul.submenu li{
 ul.submenu li a{
   color: #FFF !important;
 }
+.md-section-3 h6{
+  font-size: calc(4px + 1vw);
+}
 @media screen and (max-width: 767px){
+  .md-section-3 h6{
+    font-size: calc(6px + 1vw);
+  }
   .footer .top-footer .md-social a{
     width: 10%;
   }
