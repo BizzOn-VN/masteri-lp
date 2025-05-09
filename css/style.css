@@ -734,6 +734,9 @@ input[type=submit] {
   .section-2 .md-scroll img{
     margin: 0px auto 25px auto;
   }
+  .md-section-3 .main-content .md-link img{
+    width: 17px;
+  }
 }
 @media (min-width: 2565px){
   .section-2 .md-left{
@@ -741,7 +744,9 @@ input[type=submit] {
   }
 }
 @media (min-width: 3800px){
-
+  .md-section-3 .main-content .md-link img{
+    width: 25px;
+  }
   .section-1 .watch-vd{
     padding: 7px 50px;
   }
