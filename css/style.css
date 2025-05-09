@@ -737,6 +737,10 @@ input[type=submit] {
   .md-section-3 .main-content .md-link img{
     width: 17px;
   }
+  ul.submenu{
+    padding: 20px 0px 20px 20px;
+    width: 320px;
+  }
 }
 @media (min-width: 2565px){
   .section-2 .md-left{
